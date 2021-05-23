@@ -28,10 +28,14 @@ Home page for navigating inbetween games
 
 MVP #1
 
+The first game that I will get fully functional is tictactoe
+
+
 One fully functional game that can be navigated towards
 
 STRETCH #1
 
+The second game that I will get fully functional is wack a mole.
 A second game that is on display.
 
 FINAL STRETCH 

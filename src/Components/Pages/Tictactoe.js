@@ -3,7 +3,7 @@ import '../../Style/App.css'
 function Tictactoe() {
   return (
     <>
-      <h1>Nothing will resolve I need to keep pushing forward. Everything will work itself out in the end.</h1>
+      <h1>This is a tic tac toe component.</h1>
       <p></p>
 
     </>
