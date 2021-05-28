@@ -1,0 +1,41 @@
+.Header {
+    width: 100%;
+    height: 111px;
+    background-color: #211A1A;
+    
+}
+
+.Game-Hub-Title {
+    background-color: red;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Game-Hub-Title:hover {
+    background-color: blue;
+}
+
+.Title-icon {
+    height: 50px;
+    width: 50px;
+    background: url('../Images/title/game-hub-icon-default.png');
+    /* background-color: aqua; */
+    /* background-image: url('../Images/title/game-hub-icon-default.png'); */
+}
+
+.Game-Hub-Title:hover .Title-icon
+{
+    background: url('../Images/title/game-hub-icon-hover.png');
+    /* this needs to be the icon default state */
+    /* background-image: url(); */
+
+    /* background-color: black; */
+}
+
+
+
+
+.Title-text {
+
+}

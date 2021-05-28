@@ -1,16 +1,27 @@
 import '../Style/App.css'
 
-import '../Images/Title-Logo.png'
+import '../Style/Header.css'
 
+import Icondefault from '../Images/title/game-hub-icon-default.png'
+import '../Images/title/game-hub-icon-hover.png'
 
-// All of these should share the same css for the background and main containers.
-
-// everything else is game.
+import '../Images/title/game-hub-text-default.png'
+import '../Images/title/game-hub-text-hover.png'
 
 function Header() {
   return (
     <>
-      <h1> This is the header</h1>
+      <div className="Header">
+        <div className="Game-Hub-Title">
+        <div className="Title-icon"></div>
+        <img src={Icondefault}/>
+        <div className="Title-text"></div>
+          {/* <img className='Title-icon' alt=""/> */}
+          <h1> This is the header</h1>
+        </div>
+      </div>
+
+
     </>
   );
 }
